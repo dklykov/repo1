@@ -1,0 +1,203 @@
+#header{
+/*	font-style: oblique;*/
+	border-bottom: dashed thin white;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+}
+
+#left{
+	width: 15%;
+	float: left;
+	display: block;
+	padding: 5px;
+	
+}
+#right {
+	width: 15%;
+	float: right;
+	display: block;
+	margin-top: 0px;
+	padding: 5px;
+
+}
+
+#content {
+	width: 65%;
+	padding: 5px;
+	float: left;
+	border-right: dashed thin white;	
+	border-left: dashed thin white;
+}
+
+#footer 
+{
+	float: top;
+	overflow: hidden;
+	width: 100%;
+}
+
+#container {
+	padding: 5px;
+	overflow: hidden;
+	border-bottom: dashed thin white;
+}
+
+#footer {
+	padding: 5px;
+	overflow: hidden;
+	clear: both;	
+}
+
+a {
+	color: #5C1F00;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:hover {
+	color: white;
+	text-decoration:none;
+}
+a img {
+	border:none;
+}
+
+input[type=submit], select
+{
+ display: inline;
+ font-size: 110%;
+ width: auto;
+ -webkit-border-radius: 4px;
+ /*-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0px 1px 1px rgba(0, 0, 0, 0.2);
+ background-color: goldenrod;
+ */
+background-image: -webkit-gradient(linear, left top, left bottom, from(#E5C063), to(#5C4A25));
+background-image: -webkit-linear-gradient(top, #E5C063, #5C4A25);
+background-image: -moz-linear-gradient(top, #E5C063, #5C4A25);
+ border-color: goldenrod;
+}
+body {
+	/* background: #003d4c; */
+	background-image: url('../img/Old_paper3.jpg');
+/*	color: #4fff;*/
+/*	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;*/
+	font-size:90%;
+	margin: 0;
+	font-family: Tahoma,Verdana,Arial,sans-serif;
+}
+
+div.optitle{
+font-weight: bold;	
+	
+}
+
+div.opinfo{
+	
+	
+}
+div.optext{
+padding: 12px;
+}
+
+div.optext a {
+	
+	font-weight: normal;
+}
+
+textarea {
+width: 100%;
+-webkit-border-radius: 4px;
+}
+
+.titleinput {
+	width: 50%;
+	
+}
+
+input {
+-webkit-border-radius: 4px;	
+	
+}
+input.authwindow 
+{
+	/*margin-left: 30px;*/
+	display: block;
+	width: 70%;
+}
+
+#category {
+ width: 20px;
+}
+
+input.reginput {
+	display: block;
+}
+
+input.ui-combobox-input {
+	width: 50%;
+	
+}
+
+div.message {
+	clear: both;
+	color: darkred;
+	font-size: 140%;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	padding: 5px;
+}
+
+#OpinionText {
+font-family: Tahoma, Sans-Serif;	
+	
+}
+
+.tagbox {
+	display:inline-block;
+	padding: 5px;
+}
+.tagel1{
+	font-size: 10px;
+}
+.tagel2{
+	font-size: 14px;
+}
+.tagel3{
+	font-size: 16px;
+}
+.tagel4{
+	font-size: 18px;
+}
+
+#aspam {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	
+}
+
+#wikitip {
+	background-color: white;
+	position: absolute;
+}
+
+li:hover {
+	font-weight: bold;
+	
+}
+
+ul#menu {
+margin-bottom: 5px;	
+}
+
+li.menuitem{
+	display: inline;
+	padding: 10px;
+}
+
+#vcard {
+	font-size: 8px;
+	
+}
